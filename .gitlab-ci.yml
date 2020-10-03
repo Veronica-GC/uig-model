@@ -5,9 +5,9 @@
 image: gradle:alpine
 
 stages:
--build
--test
--deploy
+  -build
+  -test
+  -deploy
 
 # Disable the Gradle daemon for Continuous Integration servers as correctness
 # is usually a priority over speed in CI environments. Using a fresh
